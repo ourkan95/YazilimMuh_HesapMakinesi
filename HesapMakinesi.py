@@ -15,5 +15,9 @@ if islem == 1:
 if islem == 2:
        x = float(input("Payı giriniz: "))
        y = float(input("Paydayı giriniz: "))
-       sonuc = x / y
-       print("İşlemin sonucu: " + str(sonuc))
+       if y ==0:
+           print("Payda sıfır olamaz..!")
+       else:
+           sonuc = x / y
+           print("İşlemin sonucu: " + str(sonuc))
+       
